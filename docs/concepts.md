@@ -5,9 +5,7 @@ Following is an outline of the entities and processes that compose Arbok's funct
 ## Action
 
 Actions are implemented as maps. They represent an Authentication Identity's intent. You may
-define your own Actions. While Actions can be defined via compile time configuration, it is
-recommended to use run time configuration where possible. In either case see `Arbok` for more
-information.
+define your own Actions.
 
 Action examples:
 
@@ -30,9 +28,9 @@ application, it can use the associated Authentication Identity to perform Verifi
 
 ## Policy
 
-Policies are implemented as maps. They have many Scope Rules. Policies have a unique name
-field. When Policies are merged, their Scope Rules are merged. Scope Rules are unique within a
-Policy on the combination of their Scope and Action.
+Policies are implemented as maps. They have many Scope Rules. Policies have a unique name field.
+When Policies are merged, their Scope Rules are merged. Scope Rules are unique within a Policy on
+the combination of their Scope and Action.
 
 ## Reduced Policy
 

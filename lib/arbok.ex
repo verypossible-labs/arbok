@@ -5,9 +5,9 @@ defmodule Arbok do
 
   # Configuration
 
-  Options can be specified at compile time and run time, but the latter takes precedence. In
-  either case, because Arbok is a library application, the options are only ever leveraged if you
-  start an instance of `Arbok` in your applicaiton.
+  Options can be specified at compile time and run time, but the latter takes precedence and is
+  the recommended pattern. In either case, because Arbok is a library application, the options are
+  only ever leveraged if you start an instance of `Arbok` in your applicaiton.
 
   - `:actions` - `[Arbok.action()]`. `[]`. A list of Actions that Arbok will ensure exists.
   - `:persistence` - `module()` The `Arbok.Persistence` behaviour implementation to be used.

@@ -14,7 +14,8 @@ defmodule Arbok.Persistence do
   @doc """
   Persist an Authid.
   """
-  @callback create_authid() :: {:ok, Arbok.authid()} | {:error, any()}
+  @callback create_authid(%{policies: [Arbok.policy()]}) ::
+              {:ok, Arbok.authid()} | {:error, any()}
 
   @doc """
   Delete an Authid.

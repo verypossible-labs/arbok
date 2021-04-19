@@ -33,6 +33,11 @@ children = [
 ]
 ```
 
+**ets.ex**
+
+```elixir
+```
+
 **business_logic.ex**
 
 Rig device shadow deletion with authorization, only allowing a device shadow to be deleted if the

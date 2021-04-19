@@ -4,7 +4,9 @@ An Elixir role-based access control framework.
 
 <img src="https://i.imgur.com/aTZ935g.png" width="200">
 
-This project is part of [Very labs](https://github.com/verypossible-labs/docs/blob/master/README.md).
+This project is part of
+[Very labs](https://github.com/verypossible-labs/docs/blob/master/README.md).
+
 ---
 
 [Documentation](docs/readme.md)
